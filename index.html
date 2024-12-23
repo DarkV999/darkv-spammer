@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarkV Spammer</title>
-    <!-- Favicon -->
-    <link rel="icon" href="https://cdn.discordapp.com/attachments/1320574046181654644/1320577337192091698/Screenshot_2024-12-22_203452.png?ex=676a1afc&is=6768c97c&hm=8586677d875c772f95983ff3426ae0f732a0a402fc037263566aaef14633eb33" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="navbar">
+        <div class="tab" id="homeTab">Home</div>
+        <div class="tab" id="spammerTab">Spammer</div>
+        <div class="tab" id="infoTab">Info</div>
+        <div class="tab" id="buyTab">Buy</div>
+    </div>
+    
+    <div class="container" id="homeContent">
+        <h1>Simple Discord Webhook Spammer</h1>
+        <p>Made by tajh_.</p>
+        <a href="https://discord.gg/dpRvmbRZUK" target="_blank">Join our Discord</a>
+    </div>
+    
+    <div class="container" id="spammerContent" style="display:none;">
         <h1>🎄 DarkV 🎄</h1>
         <p>Discord Webhook Nuker</p>
         <input id="webhookUrl" type="text" placeholder="Discord Webhook URL Here">
@@ -18,18 +29,19 @@
         <p class="status" id="status">Status: Waiting...</p>
         <div class="loader" id="loader" style="display: none;"></div>
     </div>
+    
+    <div class="container" id="infoContent" style="display:none;">
+        <h1>What We Do</h1>
+        <p>- We collect IPs to protect our site.</p>
+        <p>- We provide a tool to send webhook spam to Discord servers.</p>
+        <p>- Always use responsibly.</p>
+    </div>
+    
+    <div class="container" id="buyContent" style="display:none;">
+        <h1>Contact Me (Tajh_.)</h1>
+        <p>To buy our premium token Kaboom tool, reach out to me in DMs.</p>
+    </div>
+
     <script src="script.js"></script>
-    <script>
-        // Change title when the tab is focused or not
-        let originalTitle = document.title;
-        
-        window.addEventListener("focus", function() {
-            document.title = "🎄THANK YOU FOR USING DARK V🎄";
-        });
-        
-        window.addEventListener("blur", function() {
-            document.title = "🎄COME BACK LATER🎄";
-        });
-    </script>
 </body>
 </html>
