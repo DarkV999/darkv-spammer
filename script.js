@@ -1,6 +1,7 @@
 const spamButton = document.getElementById('spamButton');
 const statusText = document.getElementById('status');
 const webhookUrlInput = document.getElementById('webhookUrl');
+const loader = document.getElementById('loader');
 
 spamButton.addEventListener('click', async () => {
     const webhookUrl = webhookUrlInput.value.trim();
@@ -12,6 +13,8 @@ spamButton.addEventListener('click', async () => {
     }
 
     statusText.textContent = "Status: Sending messages...";
+    loader.style.display = 'block';  // Show loader
+
     try {
         for (let i = 0; i < 1000; i++) {
             await fetch(webhookUrl, {
@@ -24,5 +27,7 @@ spamButton.addEventListener('click', async () => {
     } catch (error) {
         console.error(error);
         statusText.textContent = "Status: Error... Failed to send messages";
+    } finally {
+        loader.style.display = 'none';  // Hide loader after completion
     }
 });
