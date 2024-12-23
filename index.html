@@ -3,30 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DarkV Nuker</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>DarkV Spammer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="tabs">
-        <button id="homeTab">Home</button>
-        <button id="spammerTab">Spammer</button>
-        <button id="infoTab">Info</button>
-        <button id="buyTab">Buy</button>
-        <button id="nukerTab">Nuker</button>
+    <div class="container">
+        <h1>DarkV Spammer</h1>
+        <p>Enter your webhook below and press Spam to start!</p>
+        <input id="webhookUrl" type="text" placeholder="Enter your Discord Webhook URL">
+        <button id="spamButton">Spam</button>
+        <p class="status" id="status">Status: Waiting...</p>
+        <div class="loader" id="loader" style="display: none;"></div>
     </div>
-
-    <div id="nukerContent" class="container" style="display: none;">
-        <h1>Nuker</h1>
-        <input id="botToken" type="text" placeholder="Enter Bot Token" />
-        <input id="serverId" type="text" placeholder="Enter Server ID" />
-        <button id="nukeButton">Nuke</button>
-        <p id="nukerStatus">Status: Waiting...</p>
-        <p id="botName"></p>
-        <p id="serverName"></p>
-        <div id="nukerLoader" style="display: none;">Loading...</div>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
