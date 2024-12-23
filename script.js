@@ -1,4 +1,4 @@
-// Function to switch between tabs
+// Tab Switching functionality
 document.getElementById('homeTab').addEventListener('click', () => {
     toggleTab('home');
 });
@@ -13,12 +13,12 @@ document.getElementById('buyTab').addEventListener('click', () => {
 });
 
 function toggleTab(tabName) {
-    // Hide all content
+    // Hide all tabs content
     document.querySelectorAll('.container').forEach(container => {
         container.style.display = 'none';
     });
 
-    // Show the selected content
+    // Show the selected tab content
     document.getElementById(tabName + 'Content').style.display = 'block';
 }
 
