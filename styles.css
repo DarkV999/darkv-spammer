@@ -1,7 +1,7 @@
 /* General Body Styles */
 body {
-    background-color: black;
-    color: white;
+    background-color: #1a1a1a;  /* Matte black background */
+    color: white;  /* White text */
     font-family: 'Playfair Display', serif; /* Set Playfair Display font */
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ button:hover {
 
 /* Container Styling */
 .container {
-    background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(30, 30, 30, 0.9);  /* Darker container background */
     padding: 40px;
     border-radius: 10px;
     text-align: center;
