@@ -10,16 +10,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    scroll-behavior: smooth;
+    position: relative; /* Allow snowflakes to be positioned correctly */
+    overflow: hidden; /* Hide snowflakes outside the screen */
 }
 
-/* Snowflake styling */
+/* Snowflakes animation */
 .snowflake {
     position: absolute;
     top: -10px;
     color: white;
     pointer-events: none;
     animation: fall linear infinite, drift 10s ease-in-out infinite;
+    opacity: 0.8;
 }
 
 @keyframes fall {
@@ -28,8 +30,9 @@ body {
 }
 
 @keyframes drift {
-    0% { transform: translateX(var(--x)); }
-    100% { transform: translateX(var(--x)); }
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10vw); }
+    100% { transform: translateX(-10vw); }
 }
 
 /* Styling the tab buttons */
