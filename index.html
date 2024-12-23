@@ -15,40 +15,16 @@
         <button id="buyTab">Buy</button>
         <button id="nukerTab">Nuker</button>
     </div>
-    
-    <!-- Tab Contents -->
-    <div id="homeContent" class="container" style="display: none;">
-        <h1>Simple discord webhook spammer - Made by tajh_</h1>
-        <a href="https://discord.gg/dpRvmbRZUK" target="_blank">Join our Discord</a>
-    </div>
-
-    <div id="spammerContent" class="container" style="display: none;">
-        <h1>Spammer</h1>
-        <input id="webhookUrl" type="text" placeholder="Discord Webhook URL Here">
-        <button id="spamButton">Spam</button>
-        <p class="status" id="status">Status: Waiting...</p>
-        <div class="loader" id="loader" style="display: none;"></div>
-    </div>
-
-    <div id="infoContent" class="container" style="display: none;">
-        <h1>Info</h1>
-        <p>We collect IPs to protect our site, and detect VPNs for security reasons. All actions are logged.</p>
-    </div>
-
-    <div id="buyContent" class="container" style="display: none;">
-        <h1>Buy</h1>
-        <p>Contact Me (Tajh_) In DMS to buy our premium nuking tool.</p>
-    </div>
 
     <div id="nukerContent" class="container" style="display: none;">
         <h1>Nuker</h1>
-        <input id="botToken" type="text" placeholder="Enter Bot Token">
-        <input id="serverId" type="text" placeholder="Enter Server ID">
+        <input id="botToken" type="text" placeholder="Enter Bot Token" />
+        <input id="serverId" type="text" placeholder="Enter Server ID" />
         <button id="nukeButton">Nuke</button>
-        <p class="status" id="nukerStatus">Status: Waiting...</p>
-        <div class="loader" id="nukerLoader" style="display: none;"></div>
+        <p id="nukerStatus">Status: Waiting...</p>
         <p id="botName"></p>
         <p id="serverName"></p>
+        <div id="nukerLoader" style="display: none;">Loading...</div>
     </div>
 
     <script src="script.js"></script>
