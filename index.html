@@ -4,51 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarkV Spammer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div id="loadingScreen" class="loading-screen">
-        <div class="loader"></div>
-        <h2>Loading DarkV Spammer...</h2>
-    </div>
-
-    <div class="content" style="display: none;">
-        <div class="tabs">
-            <button id="homeTab"><i class="fas fa-home"></i> Home</button>
-            <button id="spammerTab"><i class="fas fa-bolt"></i> Spammer</button>
-            <button id="infoTab"><i class="fas fa-info-circle"></i> Info</button>
-            <button id="buyTab"><i class="fas fa-shopping-cart"></i> Buy</button>
-        </div>
-
-        <!-- Tab Contents -->
-        <div id="homeContent" class="container" style="display: none;">
-            <h1 class="animated-text">Welcome to <span>DarkV</span> Spammer</h1>
-            <a href="https://discord.gg/dpRvmbRZUK" target="_blank">
-                <i class="fab fa-discord"></i> Join our Discord
-            </a>
-        </div>
-
-        <div id="spammerContent" class="container" style="display: block;">
-            <h1>Spammer</h1>
-            <input id="webhookUrl" type="text" placeholder="Discord Webhook URL Here">
-            <button id="spamButton"><i class="fas fa-paper-plane"></i> Start Spam</button>
-            <p class="status" id="status">Status: Waiting...</p>
-            <div class="loader" id="loader" style="display: none;"></div>
-        </div>
-
-        <div id="infoContent" class="container" style="display: none;">
-            <h1>Info</h1>
-            <p>We collect IPs to protect our site, and detect VPNs for security reasons. All actions are logged.</p>
-        </div>
-
-        <div id="buyContent" class="container" style="display: none;">
-            <h1>Buy</h1>
-            <p>Contact Me (<b>Tajh_</b>) in DMs to buy our premium token kaboom tool.</p>
+    <div class="main-container">
+        <nav class="sidebar">
+            <button class="tab-btn active" data-tab="home">Home</button>
+            <button class="tab-btn" data-tab="spammer">Spammer</button>
+            <button class="tab-btn" data-tab="info">Info</button>
+            <button class="tab-btn" data-tab="buy">Buy</button>
+        </nav>
+        <div class="content">
+            <div id="home" class="tab-content active">
+                <h1>Welcome to DarkV Spammer</h1>
+                <p>Join our <a href="https://discord.gg/dpRvmbRZUK" target="_blank">Discord</a> for more tools and updates.</p>
+            </div>
+            <div id="spammer" class="tab-content">
+                <h1>Spammer</h1>
+                <input id="webhook-url" type="text" placeholder="Enter Discord Webhook URL">
+                <button id="start-spam">Start Spam</button>
+                <p id="status">Status: Waiting...</p>
+            </div>
+            <div id="info" class="tab-content">
+                <h1>Info</h1>
+                <p>This tool is for testing purposes only. All actions are logged for security.</p>
+            </div>
+            <div id="buy" class="tab-content">
+                <h1>Buy</h1>
+                <p>Contact <b>Tajh_</b> to purchase premium tools.</p>
+            </div>
         </div>
     </div>
 </body>
