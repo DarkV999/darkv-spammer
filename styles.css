@@ -14,7 +14,7 @@ body {
 
 /* Add cool font and container styling */
 h1, h2 {
-    font-family: 'Pacifico', cursive; /* Fun font for headings */
+    font-family: 'Playfair Display', Regular; /* Fun font for headings */
     animation: fadeIn 2s ease-out;
 }
 
