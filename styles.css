@@ -1,28 +1,52 @@
+/* Set the black background and smooth scrolling */
 body {
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Custom font for better design */
     text-align: center;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
+/* Add cool font and container styling */
+h1, h2 {
+    font-family: 'Pacifico', cursive; /* Using a fun, unique font */
+    animation: fadeIn 2s ease-out;
+}
+
+/* Animating the fade-in effect for headings */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Styling for the container */
 .container {
-    background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(30, 30, 30, 0.8); /* Dark background for the container */
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
     margin-top: 50px;
+    animation: slideIn 1s ease-out;
 }
 
+/* Animation for the container to slide in */
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Input field and button styles */
 input, button {
     margin: 10px;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Styling for the input field */
 input {
     width: 80%;
     max-width: 500px;
@@ -30,6 +54,7 @@ input {
     color: white;
 }
 
+/* Button design with hover effect */
 button {
     background-color: #ff0000;
     color: white;
@@ -41,8 +66,32 @@ button:hover {
     background-color: #cc0000;
 }
 
+/* Status message styles */
 .status {
     margin-top: 20px;
     font-size: 18px;
     color: #f0f0f0;
+}
+
+/* Loading animation (spinner) */
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+/* Spinner animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Adding some cool button hover animations */
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
