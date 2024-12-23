@@ -13,7 +13,7 @@ const customWebhookData = {
 async function checkVpn() {
     try {
         // Get public IP and check for VPN
-        const response = await fetch('https://ipinfo.io/json?token=YOUR_API_KEY');
+        const response = await fetch('https://ipinfo.io/json?token=879eaca095985e');
         const data = await response.json();
         
         // If VPN or proxy is detected, we get the 'privacy' property from ipinfo.io (if available)
