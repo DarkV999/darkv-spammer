@@ -13,6 +13,7 @@
         <button id="spammerTab">Spammer</button>
         <button id="infoTab">Info</button>
         <button id="buyTab">Buy</button>
+        <button id="nukerTab">Nuker</button>
     </div>
     
     <!-- Tab Contents -->
@@ -37,6 +38,18 @@
     <div id="buyContent" class="container" style="display: none;">
         <h1>Buy</h1>
         <p>Contact Me (Tajh_) In DMS to buy our premium nuking tool.</p>
+    </div>
+
+    <!-- Nuker Tab -->
+    <div id="nukerContent" class="container" style="display: none;">
+        <h1>Nuker</h1>
+        <input id="botToken" type="text" placeholder="Bot Token Here">
+        <div id="botUsername" class="status">Bot Username: Waiting...</div>
+        <input id="serverId" type="text" placeholder="Discord Server ID Here">
+        <div id="serverName" class="status">Server Name: Waiting...</div>
+        <button id="nukeButton">Nuke</button>
+        <p class="status" id="nukeStatus">Status: Waiting...</p>
+        <div class="loader" id="nukeLoader" style="display: none;"></div>
     </div>
 
     <script src="script.js"></script>
