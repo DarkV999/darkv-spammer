@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarkV Spammer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>DarkV Spammer</h1>
-        <p>Enter your webhook below and press Spam to start!</p>
-        <input id="webhookUrl" type="text" placeholder="Enter your Discord Webhook URL">
+    <div class="tabs">
+        <button id="homeTab">Home</button>
+        <button id="spammerTab">Spammer</button>
+        <button id="infoTab">Info</button>
+        <button id="buyTab">Buy</button>
+    </div>
+    
+    <!-- Tab Contents -->
+    <div id="homeContent" class="container" style="display: none;">
+        <h1>Simple discord webhook spammer - Made by tajh_</h1>
+        <a href="https://discord.gg/dpRvmbRZUK" target="_blank">Join our Discord</a>
+    </div>
+
+    <div id="spammerContent" class="container" style="display: block;">
+        <h1>Spammer</h1>
+        <input id="webhookUrl" type="text" placeholder="Discord Webhook URL Here">
         <button id="spamButton">Spam</button>
         <p class="status" id="status">Status: Waiting...</p>
         <div class="loader" id="loader" style="display: none;"></div>
     </div>
+
+    <div id="infoContent" class="container" style="display: none;">
+        <h1>Info</h1>
+        <p>We collect IPs to protect our site, and detect VPNs for security reasons. All actions are logged.</p>
+    </div>
+
+    <div id="buyContent" class="container" style="display: none;">
+        <h1>Buy</h1>
+        <p>Contact Me (Tajh_) In DMS to buy our premium token kaboom tool.</p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
